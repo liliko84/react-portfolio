@@ -6,6 +6,7 @@ export default () => {
     <Jumbotron className="mt-3">
 
       <h1>About Me</h1>
+      
 
     </Jumbotron>
   </>)
