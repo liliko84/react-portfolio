@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home, Contact, Portfolio } from './pages'
 import Nav from './components/Nav'
 import { Container } from 'react-bootstrap'
+
+
 // import Container from "react-bootstrap/Container";
 // import Navbar from "react-bootstrapNavbar";
 // import "./App.css";
