@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Home, Contact, Portfolio } from './pages'
-import Nav from './components/Nav'
-import { Container } from 'react-bootstrap'
-
+import { Home, Contact, Portfolio } from './pages';
+import Nav from './components/Nav';
+import { Container } from 'react-bootstrap';
+/* import Footer from './components/Footer' */
 
 // import Container from "react-bootstrap/Container";
 // import Navbar from "react-bootstrapNavbar";
@@ -18,7 +18,19 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Container>
-
+</Router>
+  )
+    /*   function App() {
+  return (
+    <Router>
+      <Footer>
+      <Container>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} /> 
+      </Container>
+       */
+      
       {/* <Container className="p-0" fluid={true}>
           <Navbar classname="border-bottom">
             <Navbar.Brand>Portfolio</Navbar.Brand>
@@ -33,8 +45,12 @@ function App() {
             </Navbar.Collapse>
           </Navbar>
         </Container> */}
+        
+ /*        </Footer>
     </Router>
-  );
-}
+  ); */
+  
+      }
+
 
 export default App;
