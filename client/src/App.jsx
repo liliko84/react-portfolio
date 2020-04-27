@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home, Contact, Portfolio } from './pages';
 import Nav from './components/Nav';
 import { Container } from 'react-bootstrap';
-/* import Footer from './components/Footer' */
+import FooterPage from './components/FooterPage'
 
 // import Container from "react-bootstrap/Container";
 // import Navbar from "react-bootstrapNavbar";
@@ -18,39 +18,8 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Container>
-</Router>
-  )
-    /*   function App() {
-  return (
-    <Router>
-      <Footer>
-      <Container>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} /> 
-      </Container>
-       */
-      
-      {/* <Container className="p-0" fluid={true}>
-          <Navbar classname="border-bottom">
-            <Navbar.Brand>Portfolio</Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <link classname="nav-link" to="/">Home</link>
-                <link classname="nav-link" to="/">About</link>
-                <link classname="nav-link" to="/">Contact</link>
-
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-        </Container> */}
-        
- /*        </Footer>
+      <FooterPage />
     </Router>
-  ); */
-  
-      }
-
-
-export default App;
+  )
+}
+export default App
