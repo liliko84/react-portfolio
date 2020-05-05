@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import './portfolio.css';
@@ -55,4 +55,4 @@ export default () => {
   )
   }
 
-  export default Portfolio;
+  export default Portfolio; */
