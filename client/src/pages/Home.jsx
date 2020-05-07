@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron} from 'react-bootstrap';
+import home from 'home.css'
 
 export default () => {
   return (<>
