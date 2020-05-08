@@ -1,13 +1,13 @@
 import React from 'react';
 import { Jumbotron} from 'react-bootstrap';
-import home from 'home.css'
+import './home.css';
 
 export default () => {
   return (<>
     <Jumbotron className="mt-3">
   <img src='./assets/img/lili.jpg' alt="lili"/>
           
-    <p>
+    <p >
               My name is Lili Gugushvili.I am 35 years old,married with 2 kids, 5 Years old boy and 17 month old girl.
             </p>
             <p>
